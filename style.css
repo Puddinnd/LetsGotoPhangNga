@@ -1,5 +1,5 @@
 @font-face {
-    font-family: font1;
+    font-family: font_header;
     src: url("./font/JustAliceDemo.ttf");
 }
 
@@ -8,14 +8,34 @@ body{
 	padding: 0 0 0 0;
 }
 
-.menu{
+.header{
 	width: 100vw;
 	height: 7vh;
 	background-color: crimson;
 	margin: 0 0 0 0;
 	padding: 20px 5px 5px 30px;
-	font-family: font1;
-	font-weight: bold;
+}
+.menu{
+	width: 50vw;
+	height: 7vh;
+	background-color: crimson;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family: font_header;
 	font-size: 3em;
 	color: white;
+	display: inline-block;
+}
+.menu_button
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 40vw;
+	height: 7vh;
+	background-color: black;
+	font-family: font_header;
+	font-size: 3em;
+	color: white;
+	display: inline-block;
+
 }
