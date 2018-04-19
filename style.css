@@ -6,21 +6,20 @@
 body{
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
+	min-height: 1000vh;
 }
 
 .header{
+	background-color: black;
+	position: fixed;
 	width: 100vw;
-	height: 7vh;
-	background-color: crimson;
-	margin: 0 0 0 0;
-	padding: 20px 5px 5px 30px;
 }
 .menu{
-	width: 50vw;
+	width: 60vw;
 	height: 7vh;
 	background-color: crimson;
+	padding: 30px 5px 5px 30px;
 	margin: 0 0 0 0;
-	padding: 0 0 0 0;
 	font-family: font_header;
 	font-size: 3em;
 	color: white;
@@ -29,8 +28,8 @@ body{
 .menu_button
 {
 	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	width: 40vw;
+	padding: 30px 5px 5px 30px;
+	width: 30vw;
 	height: 7vh;
 	background-color: black;
 	font-family: font_header;
