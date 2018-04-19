@@ -4,6 +4,7 @@
 }
 
 body{
+	font-family: font_header;
 	overflow-x: hidden;;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
@@ -12,40 +13,81 @@ body{
 .header{
 	position: fixed;
 	background-color: black;
-	width: 100vw;
+	width: 100%;
+	height: 6vh;
+	min-height: 100px;
 	z-index: 100;
 }
+
 .menu{
-	width: 50vw;
-	height: 6vh;
+	min-width: 150px;
+	width: 60%;
+	height: 100%;
 	background-color: crimson;
-	padding: 30px 5px 5px 30px;
+	padding: 0 0 0 0;
 	margin: 0 0 0 0;
 	font-family: font_header;
-	font-size: 3em;
+	font-size: 3rem;
 	color: white;
 	display: inline-block;
 }
-.menu_button{
+@media only screen and (max-width: 1200px) {
+	.menu{
+		width: 100%;
+		height: 50%;
+		background-color: crimson;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		font-family: font_header;
+		font-size: 2rem;
+		color: white;
+		display: inline-block;
+	}
+}
+.menu_list{
+	min-width: 150px;
+	width: 40%;
+	height: 100%;
+	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-	padding: 30px 5px 5px 30px;
-	min-width: 10vw;
-	min-height: 6vh;
+	display: inline-block;
+}
+@media only screen and (max-width: 1200px){
+	.menu_list{
+		width: 100%;
+		height: 50%;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		display: inline-block;
+	}
+}
+.menu_button{
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 25%;
+	height: 100%;
 	background-color: black;
 	font-family: font_header;
-	font-size: 3em;
+	font-size: 3rem;
 	color: white;
 	display: inline-block;
 	text-align: center;
 }
+@media only screen and (max-width: 1000px){
+	.menu_button{
+		font-size: 1.75rem;
+	}
+}	
 .menu_button:hover{
 	background-color: white;
 	color: crimson;
 }
 
 .welcome_page{
-	height: 110.9vh;
-	width: 100vw;
+	text-align: center;
+	height: 100vh;
+	overflow: hidden;
 	background-color: yellow;
 }
 
@@ -86,7 +128,8 @@ body{
 }
 
 #background_video{
-	min-width: 100vw;
-	min-height: 100vh;
+	min-width: 100%;
+	min-height: 100%;
 	z-index: -100;
+
 }
