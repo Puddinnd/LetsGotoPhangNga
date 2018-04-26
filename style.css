@@ -1,6 +1,6 @@
 @font-face {
     font-family: font_header;
-    src: url("./font/JustAliceDemo.ttf");
+    src: url("./font/2005_iannnnnHBO.ttf");
 }
 
 @font-face{
@@ -47,7 +47,7 @@ body{
 	flex-grow: 1;
 	height: 70px;
 	color: crimson;
-	font-size: 3em;
+	font-size: 2em;
 	text-align: center;
 	line-height: 80px;
 	margin: auto;
