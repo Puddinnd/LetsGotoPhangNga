@@ -55,7 +55,7 @@ a{
 	flex-grow: 1;
 	height: 60px;
 	color: white;
-	font-size: 2em;
+	font-size: 3vh;
 	text-align: center;
 	line-height: 60px;
 	padding: 0;
@@ -82,8 +82,21 @@ a{
 	color: black;
 	font-size: 3em;
 
-	padding-top: 1vh;
-	padding-left: 1vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.second_page_head{
+	background: crimson;
+	flex-grow: 1;
+	margin: 0;
+	padding-left: 3vh;
+	padding-top: 2vh;
+}
+.second_page_body{
+	background: crimson;
+	flex-grow: 100;
+	margin: 0;
 }
 
 .third_page{
@@ -95,9 +108,23 @@ a{
 	color: crimson;
 	font-size: 3em;
 
-	padding-top: 1vh;
-	padding-left: 1vw;
+	display: flex;
+	flex-direction: column;
 }
+
+.third_page_head{
+	background: black;
+	flex-grow: 1;
+	margin: 0;
+	padding-left: 3vh;
+	padding-top: 2vh;
+}
+.third_page_body{
+	background: black;
+	flex-grow: 100;
+	margin: 0;
+}
+
 
 .aboutus_page{
 	font-family: font_header;
@@ -110,6 +137,8 @@ a{
 
 	padding-top: 1vh;
 	padding-left: 1vw;
+	display: flex;
+	flex-direction: column;
 }
 
 #background_video{
@@ -120,7 +149,6 @@ a{
 }
 
 .welcome_text{
-	
 	width: 100%;
 	height: 100%;
 	text-align: center;
@@ -129,14 +157,30 @@ a{
 	position: absolute;
 	z-index: 50;
 	font-family: font_welcome;
-	font-size: 800%;
+	font-size: 15vh;
 	font-weight: bold;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.welcome_text p{
+	margin-top: 20vh;
 }
 
 @media only screen and (max-width: 1200px){
 	.welcome_text{
 		font-size: 5em;
 	}
+}
+
+.collection{
+	background: red;
+}
+
+.squar_card{
+	display: inline-block;
+	margin: 10px;
+	background: yellow;
+	height: 50vh;
+	width: 50vh;
 }
