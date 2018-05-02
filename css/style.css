@@ -15,6 +15,10 @@ body {
 	padding: 0 0 0 0;
 }
 
+body.vex-open {
+    overflow: hidden;
+}
+
 a{
 	text-decoration: none !important;
 }
@@ -242,6 +246,8 @@ a{
     padding: 30px;
     border: 1px solid #888;
     width: 70%;
+    height: 90%;
+    overflow-y: auto;
     font-family: font_header;
 }
 .modal-content h1{
