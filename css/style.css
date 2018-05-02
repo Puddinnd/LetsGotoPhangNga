@@ -239,9 +239,17 @@ a{
 .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #888;
-    width: 60%;
+    width: 70%;
+    font-family: font_header;
+}
+.modal-content h1{
+	font-size: 50px;
+	font-style: bold;	
+}
+.modal-content p{
+	font-size: 30px;
 }
 
 /* The Close Button */
