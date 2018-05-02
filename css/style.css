@@ -77,7 +77,7 @@ a{
 	font-family: font_header;
 	width: 100vw;
 	min-height: 75vh;
-	background-color: #ff9966;
+	background-color: #F2AD9F;
 	padding-bottom: 30px;
 
 	color: black;
@@ -102,7 +102,7 @@ a{
 	font-family: font_header;
 	width: 100vw;
 	min-height: 75vh;
-	background-color: black;
+	background-color: #DFE2D2;
 
 	color: #ff9966;
 	font-size: 3em;
@@ -112,14 +112,12 @@ a{
 }
 
 .third_page_head{
-	background: black;
 	flex-grow: 1;
 	margin: 0;
 	padding-left: 3vh;
 	padding-top: 2vh;
 }
 .third_page_body{
-	background: black;
 	flex-grow: 100;
 	margin: 0;
 }
@@ -180,9 +178,17 @@ a{
 	padding-right: 100px;
 }
 
+
+.sqc_tour{
+	background: #F26968	;
+}
+.sqc_hostel{
+	background: #6CBF84	;
+}
+
 .squar_card{
+	
 	margin: 20px;
-	background: white;
 	min-height: 400px;
 	width:400px;
 	display: flex;
