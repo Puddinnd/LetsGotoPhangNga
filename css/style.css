@@ -76,8 +76,9 @@ a{
 .second_page{
 	font-family: font_header;
 	width: 100vw;
-	height: 75vh;
-	background-color: crimson;
+	min-height: 75vh;
+	background-color: #ff9966;
+	padding-bottom: 30px;
 
 	color: black;
 	font-size: 3em;
@@ -87,14 +88,12 @@ a{
 }
 
 .second_page_head{
-	background: crimson;
 	flex-grow: 1;
 	margin: 0;
 	padding-left: 3vh;
 	padding-top: 2vh;
 }
 .second_page_body{
-	background: crimson;
 	flex-grow: 100;
 	margin: 0;
 }
@@ -102,10 +101,10 @@ a{
 .third_page{
 	font-family: font_header;
 	width: 100vw;
-	height: 75vh;
+	min-height: 75vh;
 	background-color: black;
 
-	color: crimson;
+	color: #ff9966;
 	font-size: 3em;
 
 	display: flex;
@@ -174,13 +173,70 @@ a{
 }
 
 .collection{
-	background: red;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .squar_card{
-	display: inline-block;
-	margin: 10px;
-	background: yellow;
-	height: 50vh;
-	width: 50vh;
+	margin: 20px;
+	background: white;
+	min-height: 400px;
+	width:400px;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	border-radius: 7px;
+}
+
+.pic_card{
+	flex-grow: 1;
+	width: 100%;
+}
+
+.text_card{
+	flex-grow: 1;
+	text-align: center;
+}
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
