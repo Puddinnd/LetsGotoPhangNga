@@ -274,3 +274,15 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+
+
+.container_profile{
+	
+}
+
+.profile{
+	margin: 50px;
+	height: 150px;
+	width: 300px;
+	background: white;
+}
