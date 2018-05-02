@@ -77,10 +77,10 @@ a{
 	font-family: font_header;
 	width: 100vw;
 	min-height: 75vh;
-	background-color: #F2AD9F;
+	background-color: /*#F26968;*/ #F2AD9F;
 	padding-bottom: 30px;
 
-	color: black;
+	color: #323339;
 	font-size: 3em;
 
 	display: flex;
@@ -102,9 +102,9 @@ a{
 	font-family: font_header;
 	width: 100vw;
 	min-height: 75vh;
-	background-color: #DFE2D2;
+	background-color: /*#6CBF84; */ #DFE2D2;
 
-	color: #ff9966;
+	color: #323339;
 	font-size: 3em;
 
 	display: flex;
@@ -127,7 +127,7 @@ a{
 	font-family: font_header;
 	width: 100vw;
 	height: 40vh;
-	background-color: crimson;
+	background-color: #323339;
 
 	color: white;
 	font-size: 3em;
@@ -180,10 +180,10 @@ a{
 
 
 .sqc_tour{
-	background: #F26968	;
+	background: /*#F2AD9F;*/ #F26968;
 }
 .sqc_hostel{
-	background: #6CBF84	;
+	background: /*#DFE2D2;*/  #6CBF84;
 }
 
 .squar_card{
@@ -205,8 +205,21 @@ a{
 .text_card{
 	flex-grow: 1;
 	text-align: center;
+	justify-content: center;
 }
 
+
+#myBtn{
+	background: white;
+	width: 150px;
+	font-size: 30px;
+	display: inline-block;
+}
+
+#myBtn:hover{
+	background: #323339;
+	color: white;
+}
 
 
 .modal {
