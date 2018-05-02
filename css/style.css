@@ -209,18 +209,17 @@ a{
 }
 
 
-#myBtn{
+.myBtn{
 	background: white;
 	width: 150px;
 	font-size: 30px;
 	display: inline-block;
 }
 
-#myBtn:hover{
+.myBtn:hover{
 	background: #323339;
 	color: white;
 }
-
 
 .modal {
     display: none; /* Hidden by default */
@@ -242,7 +241,7 @@ a{
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
 }
 
 /* The Close Button */
