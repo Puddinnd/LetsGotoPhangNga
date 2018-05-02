@@ -53,62 +53,77 @@ var span15 = document.getElementsByClassName("close15")[0];
 // When the user clicks the button, open the modal 
 btn1.onclick = function() {
     modal1.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn2.onclick = function() {
     modal2.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn3.onclick = function() {
     modal3.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn4.onclick = function() {
     modal4.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn5.onclick = function() {
     modal5.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn6.onclick = function() {
     modal6.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn7.onclick = function() {
     modal7.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn8.onclick = function() {
     modal8.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn9.onclick = function() {
     modal9.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn10.onclick = function() {
     modal10.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn11.onclick = function() {
     modal11.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn12.onclick = function() {
     modal12.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn13.onclick = function() {
     modal13.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn14.onclick = function() {
     modal14.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 btn15.onclick = function() {
     modal15.style.display = "block";
+    $('body').addClass('vex-open');
 }
 
 
@@ -116,62 +131,77 @@ btn15.onclick = function() {
 // When the user clicks on <span> (x), close the modal
 span1.onclick = function() {
     modal1.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span2.onclick = function() {
     modal2.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span3.onclick = function() {
-    modal3.style.display = "none"
+    modal3.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span4.onclick = function() {
     modal4.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span5.onclick = function() {
     modal5.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span6.onclick = function() {
     modal6.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span7.onclick = function() {
     modal7.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span8.onclick = function() {
     modal8.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span9.onclick = function() {
     modal9.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span10.onclick = function() {
     modal10.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span11.onclick = function() {
     modal11.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span12.onclick = function() {
     modal12.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span13.onclick = function() {
     modal13.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span14.onclick = function() {
     modal14.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 span15.onclick = function() {
     modal15.style.display = "none";
+    $('body').removeClass('vex-open');
 }
 
 // When the user clicks anywhere outside of the modal, close it
@@ -179,47 +209,62 @@ window.onclick = function(event) {
 
     if (event.target == modal1) {
         modal1.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal2) {
         modal2.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal3) {
         modal3.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal4) {
         modal4.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal5) {
         modal5.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal6) {
         modal6.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal7) {
         modal7.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal8) {
         modal8.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal9) {
         modal9.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal10) {
         modal10.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal11) {
         modal11.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal12) {
         modal12.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal13) {
         modal13.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal14) {
         modal14.style.display = "none";
+        $('body').removeClass('vex-open');
     }
     if (event.target == modal15) {
         modal15.style.display = "none";
+        $('body').removeClass('vex-open');
     }
 }
