@@ -252,6 +252,9 @@ a{
     overflow-y: auto;
     font-family: font_header;
 }
+.modal-content img{
+	max-width: 100%;
+}
 .modal-content h1{
 	font-size: 50px;
 	font-style: bold;	
