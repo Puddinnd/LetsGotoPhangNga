@@ -135,11 +135,11 @@ a{
 	min-height: 50vh;
 	background-color: #323339;
 
-	color: white;
+	color: #DFE2D2;
 	font-size: 3em;
 
-	padding-top: 1vh;
-	padding-left: 1vw;
+	padding-top: 2vh;
+	padding-left: 2vw;
 	display: flex;
 	flex-direction: column;
 }
@@ -283,6 +283,7 @@ a{
 .con_aboutus{
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .container_icon{
@@ -290,7 +291,6 @@ a{
 	display: inline-block;
 	padding: 0;
 	width: 300px;
-	background: red;
 }
 .container_icon img{
 	max-height: 100%;
@@ -300,14 +300,23 @@ a{
 .container_profile{
 	height: 100%;
 	margin:30px;
+	margin-left: 70px;
 	display: inline-block;
-	width: 40vw;
-	background: yellow;
 }
 
 .profile{
-	flex-grow: 1;
-	height: 150px;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	height: 300px;
 	color: black;
-	background: crimson;
+	line-height: 100%;
+}
+
+.pic_profile{
+	margin-left: 30px;
+	color: #DFE2D2;
+	flex-grow: 1;
+	height: 100%;
+	width: 300px;
 }
