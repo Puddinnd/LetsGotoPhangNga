@@ -132,7 +132,7 @@ a{
 .aboutus_page{
 	font-family: font_header;
 	width: 100vw;
-	height: 50vh;
+	min-height: 50vh;
 	background-color: #323339;
 
 	color: white;
@@ -279,32 +279,35 @@ a{
 }
 
 
-.container_aboutus
-{
-	height: 80%;
+
+.con_aboutus{
 	display: flex;
 	flex-direction: row;
-	width: 80vw;
 }
 
 .container_icon{
-	flex-grow: 1;
-	background: red;
+	margin: 30px;
+	display: inline-block;
 	padding: 0;
+	width: 300px;
+	background: red;
 }
 .container_icon img{
 	max-height: 100%;
-	background: black;
+	max-width: 100%;
 }
 
 .container_profile{
-	flex-grow: 3;
+	height: 100%;
+	margin:30px;
+	display: inline-block;
+	width: 40vw;
 	background: yellow;
-	display: flex;
-	flex-direction: column;
 }
 
 .profile{
 	flex-grow: 1;
+	height: 150px;
 	color: black;
+	background: crimson;
 }
